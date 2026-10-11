@@ -1,0 +1,16 @@
+[Unit]
+Description=AirPods control
+After=bluetooth.service
+Wants=bluetooth.service
+
+[Service]
+Type=simple
+User=airpods
+Group=bluetooth
+SupplementaryGroups=bluetooth
+ExecStart=/usr/bin/airpodsd
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target

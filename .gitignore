@@ -1,0 +1,9 @@
+.DS_Store
+/airpods
+/airpodsd
+*.list
+rpms/
+Makefile
+sfos-airpods
+sfos_airpods
+*.o

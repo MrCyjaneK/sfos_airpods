@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=sfos_airpods
+Exec=sfos_airpods
+Name=AirPods
+Comment=Battery, noise control, and ear detection
+
+[X-Sailjail]
+OrganizationName=net.mrcyjanek
+ApplicationName=sfos_airpods
+Sandboxing=Disabled
